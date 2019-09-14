@@ -1,0 +1,66 @@
+The targeting of this project may be more limited then initially thought. I think it will be helpful for
+the subset of blind children that display echolalia after basic typing skills have already been aquired.
+One question is how can this be applied to other children who display speech delay and disfunction?
+Would autistic children who suffer from reversals and in some cases echolalia be a good target as well?
+The broader the target audiance the better. So I definetly will be looking at who else the project can
+be tailored to with minimal to medium effort. The ultimate goal would be easily interchangable parts
+and processes for use across several demographics.
+
+*Elsevier* ~/research/Language\ acquisition
+
+blind children tend to use internally focused language over external language.
+	--maybe a party based game to help with the use of externally focused language?--
+
+"frozen phrases" are common. Which as far as I understand is essentially using whole phrases instead of
+constructing them with their own independent meaning from analzyed words. This however happens early in
+language acquisition so it isn't really a good thing to address with this project.
+
+
+*Wevrick_HumComm* ~/research/Echolalia
+
+This info is from the 80s and seems to be some what conterdicted by the above:
+	Methods to help counteract:
+		object
+		verb + object
+		agent + verb + object
+
+		Maybe have party members do something to adjective objects.
+
+		"wh" (presumably who, what, where, and why) questions are supposedly more difficult:
+			yes and no questions are more likely to be answered correctly. I am unsure on
+			wether that means we should avoid or focus on "wh" questions.
+			
+			the literature suggest the use of a third party prompter to help in the
+			response. This seems ideally suited to the game. The use of a prompt for what
+			to say is specifically suggested. This means that the use of a prompter to
+			communicate what to type is not simply something that we have to tolerate
+			instead it is something that is actively encouraged and should be emphasized
+			or at least in no way mitigated.
+		
+		fill in questions when coupled with "phonetic clues" are easy but of limited
+		communicative value.
+		
+		delayed echolalia may have to do with a precieved similarity between the current
+		situation and past situations from which the phrasing is drawn.
+			helpful strategies include "conceptual discrimination" of the situation as
+			well as alternative forms of the phrases.
+			
+			--Several form of each command as well as perhaps well defined times to use
+			each command--
+		
+		intervention should be three pronged:
+			positive reinforcement for verbal interactions (function)
+			
+			giving models for appropriate language (form)
+			
+			facilitation of the development of concepts (content)
+*point seven* https://blog.asha.org/2017/05/09/echoes-of-language-development-7-facts-about-echolalia-for-slps/
+
+"low constraint language models" I think stuff thats kind of open ended? These are the examples given:
+	comments
+	
+	affirmations
+	
+	reflective questions.
+
+*11850.full* ~/research/Language\ acquisition
