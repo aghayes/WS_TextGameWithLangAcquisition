@@ -6,6 +6,14 @@ The broader the target audiance the better. So I definetly will be looking at wh
 be tailored to with minimal to medium effort. The ultimate goal would be easily interchangable parts
 and processes for use across several demographics.
 
+Would it be possible to use low freedom of choice options? Could we have the same game played in two
+seperate ways? I.E. a game with typed commands and one with chosen commands? what would be the
+programming overhead in allowing that to be selectable. Perhaps instead of increasing the difficulty
+through progress in the game the difficulty is set at the begginging. This aproach would lend itself
+to a more rougelike game design; with each full playthrough being short enough to be completed in one
+sitting. This however would require the game to be fun and replayable which creates an obligation for
+strong procedural, or psuedo-procedural generation, in order to keep attention and replayability.
+
 *Elsevier* ~/research/Language\ acquisition
 
 blind children tend to use internally focused language over external language.
@@ -73,3 +81,8 @@ either no specific or no response at all is neccesary.
 
 	delayed echolalia was more common with low constraint interaction the echolalia also was more
 	linguistically useful and showed more evidence of comprehension.
+		--mltiple correct answers to lower the pressure of the command prompt--
+			--several possible paths based on what is chosen--
+
+			--no "wrong" answers better answers are ok but we don't want to discourage any
+			response--
