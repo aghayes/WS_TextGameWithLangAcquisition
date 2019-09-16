@@ -105,6 +105,8 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 
 
 
+
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">Config.ui.stowBarInitially = true;
 
 
@@ -119,13 +121,15 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 
 
 
+
+
 </script><tw-passagedata pid="1" name="start" tags="" position="405,171" size="100,100">&lt;div class=&quot;read&quot;&gt;&lt;/div&gt;
 [[No typing.|NTyping]]
 [[Typing.|widgets]]
 </tw-passagedata><tw-passagedata pid="2" name="NTyping" tags="" position="977,283" size="100,100">This version will demonstrate low freedom of choice gameplay for users who lack the typing competency to type meaningful commands. Press enter to go to the next page.
 &lt;span id=&quot;enter&quot;&gt;[[|Rome]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="3" name="Typing" tags="" position="380,408" size="100,100">This version will demonstrate typed commands. Press enter to go to the next page.
 
-&lt;&lt;say &quot;kludge. This version will demonstrate typed commands. Press enter to go to the next page.&quot;&gt;&gt;
+&lt;&lt;say &quot;This version will demonstrate typed commands. Press enter to go to the next page.&quot;&gt;&gt;
 &lt;span id=&quot;enter&quot;&gt;[[|T1]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="4" name="T1" tags="" position="535,444" size="100,100">You and Josh are stuck in a cave. It is dark. There are two boulders. One big and one small. What do you do?
 &lt;&lt;say &quot;You and Josh are stuck in a cave. It is dark. There are two boulders. One big and one small. What do you do?&quot;&gt;&gt;
 &lt;span id=&quot;enter&quot;&gt;[[|type]]&lt;/span&gt;
@@ -136,7 +140,7 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 &lt;&lt;set $choice3 to &quot;Josh moves the big rock&quot;&gt;&gt;
 &lt;&lt;set $out3 to &quot;big rock fail&quot;&gt;&gt;
 &lt;&lt;set $lp to passage()&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="type" tags="" position="535,594" size="100,100">$choice1, $choice2, or $choice3
-&lt;&lt;say &#96;$choice1+&quot;, &quot;+$choice2+&quot;, or &quot;+$choice3&#96;&gt;&gt;
+&lt;&lt;say-2 &#96;$choice1+&quot;, &quot;+$choice2+&quot;, or &quot;+$choice3&#96;&gt;&gt;
 &lt;&lt;textbox &quot;$cmd&quot; &quot;&quot; &quot;eval&quot; autofocus&gt;&gt;
 
 
@@ -221,6 +225,15 @@ There is a $obj1 and a $obj2.
 	synth.cancel();
 	var utterThis = new SpeechSynthesisUtterance($args[0]);
 	utterThis.voice = speechSynthesis.getVoices()[1];
+	synth.speak(utterThis);
+	&gt;&gt;
+&lt;&lt;/widget&gt;&gt;
+&lt;&lt;widget &quot;say-2&quot;&gt;&gt;
+	&lt;&lt;run 
+	var synth = window.speechSynthesis;
+	synth.cancel();
+	var utterThis = new SpeechSynthesisUtterance($args[0]);
+	utterThis.voice = speechSynthesis.getVoices()[0];
 	synth.speak(utterThis);
 	&gt;&gt;
 &lt;&lt;/widget&gt;&gt;
